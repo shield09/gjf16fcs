@@ -1,0 +1,41 @@
+http://www.downloadplex.com/Scripts/Matlab/Development-Tools/f-16-flight-control-simulation-scripts_339462.html
+
+F-16 Flight Control Simulation (Scripts) 1.0
+
+F-16 Flight Control Simulation (Scripts) Publisher's description
+
+Running the model requires:
+1. a joystick
+2. the FlightGear simulator (can be downloaded for free at www.flighgear.org)
+3. the MATLAB/Simulink Aerospace blockset
+
+!!!ALL FILES HAVE BEEN CREATED WITH MATLAB/SIMULINK 7.5 AND ARE UNTESTED ON OLDER VERSIONS!!!
+
+Both the F-16 aerodynamic model and the control laws have been taken from:
+
+NASA Technical Paper 1538 "Simulator Study of Stall/Post-Stall Characteristics of a Fighter Airplane With Relaxed Longitudinal Static Stability", Dec. 1979, by Nguyen et al.
+Downloadable from the NASA Technical Report server.
+
+Installing and running the model:
+1. Unzip all files
+2. Plug in and calibrate the joystick
+3. Start up MATLAB/Simulink 7.5 or higher with Aerospace blockset installed
+4. Open ¡°F16_fcs.mdl¡± and generate ¡°runfg.bat¡± using the generate runscript block (select the correct FlightGear directory)
+5. Open runfg.bat outside MATLAB/Simulink, this will start up FlightGear and load the F-16 graphics (use ¡°V¡± to change your viewpoint)
+6. Back in MATLAB/Simulink type ¡°runF16fcs¡± and press enter
+7. Provide requested information, pressing enter again will start the simulation
+8. Switch to FlightGear and start flying
+
+The F-16 dynamic model is valid for 
+
+1. Altitudes up until 10000 meters
+2. subsonic speeds
+3. angle of attack between -20 and 90 deg
+4. angle of sideslip of ¡À30 deg.
+
+The F-16 model can also be downloaded separately with more documentation at mathworks. 
+
+System Requirements:
+MATLAB 7.5 (R2007b) 
+Program Release Status: Major Update 
+Program Install Support: Install and Uninstall 
